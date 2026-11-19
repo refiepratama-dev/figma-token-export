@@ -1,0 +1,23 @@
+{
+  "name": "figma-token-export",
+  "version": "0.1.0",
+  "description": "Ekspor Figma variables + text styles ke JSON, lalu ubah jadi CSS variables.",
+  "type": "module",
+  "bin": {
+    "figma-token-export": "bin/build-tokens.mjs"
+  },
+  "files": [
+    "bin",
+    "plugin"
+  ],
+  "keywords": ["figma", "design-tokens", "css-variables", "design-system"],
+  "author": "Muhammad Refie Pratama",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/refiepratama-dev/figma-token-export.git"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
